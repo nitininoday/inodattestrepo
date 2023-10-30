@@ -1,0 +1,1120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+      <rd:DataSourceID>9474a4ca-1478-4164-88e3-7bc99f305575</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="Tablix1">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1in</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox1">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Company Bank Account Code</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox1</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Billto Address</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox3</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Amount</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox5</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Billto Address2</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox9">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox9</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+                <TablixRow>
+                  <Height>0.25in</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="CompanyBankAccountCode">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!CompanyBankAccountCode.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>CompanyBankAccountCode</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BilltoAddress">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!BilltoAddress.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>BilltoAddress</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Amount">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Amount.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Amount</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BilltoAddress2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!BilltoAddress2.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>BilltoAddress2</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox10">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <rd:Selected>true</rd:Selected>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                </TablixMember>
+                <TablixMember>
+                  <Group Name="Details" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.18625in</Top>
+            <Left>0.28in</Left>
+            <Height>0.5in</Height>
+            <Width>5in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+        </ReportItems>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.56125in</Width>
+      <Page>
+        <PageHeader>
+          <Height>1in</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <ReportItems>
+            <Textbox Name="UserID">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=User!UserID</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>UserID</rd:DefaultName>
+              <Top>0.12375in</Top>
+              <Left>4.85292in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="PageNumber">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!PageNumber</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>PageNumber</rd:DefaultName>
+              <Top>0.44319in</Top>
+              <Left>4.85292in</Left>
+              <Height>0.25in</Height>
+              <Width>1in</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="ReportName">
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Globals!ReportName</Value>
+                      <Style />
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <rd:DefaultName>ReportName</rd:DefaultName>
+              <Top>0.23833in</Top>
+              <Left>0.42583in</Left>
+              <Height>0.25in</Height>
+              <Width>3.85417in</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+          </ReportItems>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageHeader>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="AllowLineDisc">
+          <DataField>AllowLineDisc</DataField>
+        </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+        </Field>
+        <Field Name="AmountFormat">
+          <DataField>AmountFormat</DataField>
+        </Field>
+        <Field Name="AmountIncludingVAT">
+          <DataField>AmountIncludingVAT</DataField>
+        </Field>
+        <Field Name="AmountIncludingVATFormat">
+          <DataField>AmountIncludingVATFormat</DataField>
+        </Field>
+        <Field Name="AmtShipNotInvLCY">
+          <DataField>AmtShipNotInvLCY</DataField>
+        </Field>
+        <Field Name="AmtShipNotInvLCYFormat">
+          <DataField>AmtShipNotInvLCYFormat</DataField>
+        </Field>
+        <Field Name="AmtShipNotInvLCYBase">
+          <DataField>AmtShipNotInvLCYBase</DataField>
+        </Field>
+        <Field Name="AmtShipNotInvLCYBaseFormat">
+          <DataField>AmtShipNotInvLCYBaseFormat</DataField>
+        </Field>
+        <Field Name="AppliestoDocNo">
+          <DataField>AppliestoDocNo</DataField>
+        </Field>
+        <Field Name="AppliestoDocType">
+          <DataField>AppliestoDocType</DataField>
+        </Field>
+        <Field Name="AppliestoID">
+          <DataField>AppliestoID</DataField>
+        </Field>
+        <Field Name="AssignedUserID">
+          <DataField>AssignedUserID</DataField>
+        </Field>
+        <Field Name="BalAccountNo">
+          <DataField>BalAccountNo</DataField>
+        </Field>
+        <Field Name="BalAccountType">
+          <DataField>BalAccountType</DataField>
+        </Field>
+        <Field Name="BilltoAddress">
+          <DataField>BilltoAddress</DataField>
+        </Field>
+        <Field Name="BilltoAddress2">
+          <DataField>BilltoAddress2</DataField>
+        </Field>
+        <Field Name="BilltoCity">
+          <DataField>BilltoCity</DataField>
+        </Field>
+        <Field Name="BilltoContact">
+          <DataField>BilltoContact</DataField>
+        </Field>
+        <Field Name="BilltoContactNo">
+          <DataField>BilltoContactNo</DataField>
+        </Field>
+        <Field Name="BilltoCountryRegionCode">
+          <DataField>BilltoCountryRegionCode</DataField>
+        </Field>
+        <Field Name="BilltoCounty">
+          <DataField>BilltoCounty</DataField>
+        </Field>
+        <Field Name="BilltoCustomerNo">
+          <DataField>BilltoCustomerNo</DataField>
+        </Field>
+        <Field Name="BilltoCustomerTemplCode">
+          <DataField>BilltoCustomerTemplCode</DataField>
+        </Field>
+        <Field Name="BilltoICPartnerCode">
+          <DataField>BilltoICPartnerCode</DataField>
+        </Field>
+        <Field Name="BilltoName">
+          <DataField>BilltoName</DataField>
+        </Field>
+        <Field Name="BilltoName2">
+          <DataField>BilltoName2</DataField>
+        </Field>
+        <Field Name="BilltoPostCode">
+          <DataField>BilltoPostCode</DataField>
+        </Field>
+        <Field Name="CampaignNo">
+          <DataField>CampaignNo</DataField>
+        </Field>
+        <Field Name="CombineShipments">
+          <DataField>CombineShipments</DataField>
+        </Field>
+        <Field Name="Comment">
+          <DataField>Comment</DataField>
+        </Field>
+        <Field Name="CompanyBankAccountCode">
+          <DataField>CompanyBankAccountCode</DataField>
+        </Field>
+        <Field Name="CompletelyShipped">
+          <DataField>CompletelyShipped</DataField>
+        </Field>
+        <Field Name="CompressPrepayment">
+          <DataField>CompressPrepayment</DataField>
+        </Field>
+        <Field Name="Correction">
+          <DataField>Correction</DataField>
+        </Field>
+        <Field Name="CoupledtoCRM">
+          <DataField>CoupledtoCRM</DataField>
+        </Field>
+        <Field Name="CoupledtoDataverse">
+          <DataField>CoupledtoDataverse</DataField>
+        </Field>
+        <Field Name="CurrencyCode">
+          <DataField>CurrencyCode</DataField>
+        </Field>
+        <Field Name="CurrencyFactor">
+          <DataField>CurrencyFactor</DataField>
+        </Field>
+        <Field Name="CurrencyFactorFormat">
+          <DataField>CurrencyFactorFormat</DataField>
+        </Field>
+        <Field Name="CustomerDiscGroup">
+          <DataField>CustomerDiscGroup</DataField>
+        </Field>
+        <Field Name="CustomerPostingGroup">
+          <DataField>CustomerPostingGroup</DataField>
+        </Field>
+        <Field Name="CustomerPriceGroup">
+          <DataField>CustomerPriceGroup</DataField>
+        </Field>
+        <Field Name="DimensionSetID">
+          <DataField>DimensionSetID</DataField>
+        </Field>
+        <Field Name="DirectDebitMandateID">
+          <DataField>DirectDebitMandateID</DataField>
+        </Field>
+        <Field Name="DocNoOccurrence">
+          <DataField>DocNoOccurrence</DataField>
+        </Field>
+        <Field Name="DocumentDate">
+          <DataField>DocumentDate</DataField>
+        </Field>
+        <Field Name="DocumentType">
+          <DataField>DocumentType</DataField>
+        </Field>
+        <Field Name="DueDate">
+          <DataField>DueDate</DataField>
+        </Field>
+        <Field Name="EU3PartyTrade">
+          <DataField>EU3PartyTrade</DataField>
+        </Field>
+        <Field Name="ExitPoint">
+          <DataField>ExitPoint</DataField>
+        </Field>
+        <Field Name="ExternalDocumentNo">
+          <DataField>ExternalDocumentNo</DataField>
+        </Field>
+        <Field Name="FormatRegion">
+          <DataField>FormatRegion</DataField>
+        </Field>
+        <Field Name="GenBusPostingGroup">
+          <DataField>GenBusPostingGroup</DataField>
+        </Field>
+        <Field Name="GetShipmentUsed">
+          <DataField>GetShipmentUsed</DataField>
+        </Field>
+        <Field Name="ICDirection">
+          <DataField>ICDirection</DataField>
+        </Field>
+        <Field Name="ICReferenceDocumentNo">
+          <DataField>ICReferenceDocumentNo</DataField>
+        </Field>
+        <Field Name="ICStatus">
+          <DataField>ICStatus</DataField>
+        </Field>
+        <Field Name="IncomingDocumentEntryNo">
+          <DataField>IncomingDocumentEntryNo</DataField>
+        </Field>
+        <Field Name="Invoice">
+          <DataField>Invoice</DataField>
+        </Field>
+        <Field Name="InvoiceDiscCode">
+          <DataField>InvoiceDiscCode</DataField>
+        </Field>
+        <Field Name="InvoiceDiscountAmount">
+          <DataField>InvoiceDiscountAmount</DataField>
+        </Field>
+        <Field Name="InvoiceDiscountAmountFormat">
+          <DataField>InvoiceDiscountAmountFormat</DataField>
+        </Field>
+        <Field Name="InvoiceDiscountCalculation">
+          <DataField>InvoiceDiscountCalculation</DataField>
+        </Field>
+        <Field Name="InvoiceDiscountValue">
+          <DataField>InvoiceDiscountValue</DataField>
+        </Field>
+        <Field Name="InvoiceDiscountValueFormat">
+          <DataField>InvoiceDiscountValueFormat</DataField>
+        </Field>
+        <Field Name="IsTest">
+          <DataField>IsTest</DataField>
+        </Field>
+        <Field Name="JobQueueEntryID">
+          <DataField>JobQueueEntryID</DataField>
+        </Field>
+        <Field Name="JobQueueStatus">
+          <DataField>JobQueueStatus</DataField>
+        </Field>
+        <Field Name="JournalTemplName">
+          <DataField>JournalTemplName</DataField>
+        </Field>
+        <Field Name="LanguageCode">
+          <DataField>LanguageCode</DataField>
+        </Field>
+        <Field Name="LastEmailNotifCleared">
+          <DataField>LastEmailNotifCleared</DataField>
+        </Field>
+        <Field Name="LastEmailSentStatus">
+          <DataField>LastEmailSentStatus</DataField>
+        </Field>
+        <Field Name="LastEmailSentTime">
+          <DataField>LastEmailSentTime</DataField>
+        </Field>
+        <Field Name="LastPostingNo">
+          <DataField>LastPostingNo</DataField>
+        </Field>
+        <Field Name="LastPrepaymentNo">
+          <DataField>LastPrepaymentNo</DataField>
+        </Field>
+        <Field Name="LastPrepmtCrMemoNo">
+          <DataField>LastPrepmtCrMemoNo</DataField>
+        </Field>
+        <Field Name="LastReturnReceiptNo">
+          <DataField>LastReturnReceiptNo</DataField>
+        </Field>
+        <Field Name="LastShipmentDate">
+          <DataField>LastShipmentDate</DataField>
+        </Field>
+        <Field Name="LastShippingNo">
+          <DataField>LastShippingNo</DataField>
+        </Field>
+        <Field Name="LateOrderShipping">
+          <DataField>LateOrderShipping</DataField>
+        </Field>
+        <Field Name="LocationCode">
+          <DataField>LocationCode</DataField>
+        </Field>
+        <Field Name="No">
+          <DataField>No</DataField>
+        </Field>
+        <Field Name="NoPrinted">
+          <DataField>NoPrinted</DataField>
+        </Field>
+        <Field Name="NoSeries">
+          <DataField>NoSeries</DataField>
+        </Field>
+        <Field Name="NoofArchivedVersions">
+          <DataField>NoofArchivedVersions</DataField>
+        </Field>
+        <Field Name="OnHold">
+          <DataField>OnHold</DataField>
+        </Field>
+        <Field Name="OpportunityNo">
+          <DataField>OpportunityNo</DataField>
+        </Field>
+        <Field Name="OrderClass">
+          <DataField>OrderClass</DataField>
+        </Field>
+        <Field Name="OrderDate">
+          <DataField>OrderDate</DataField>
+        </Field>
+        <Field Name="OutboundWhseHandlingTime">
+          <DataField>OutboundWhseHandlingTime</DataField>
+        </Field>
+        <Field Name="PackageTrackingNo">
+          <DataField>PackageTrackingNo</DataField>
+        </Field>
+        <Field Name="PaymentDiscount">
+          <DataField>PaymentDiscount</DataField>
+        </Field>
+        <Field Name="PaymentDiscountFormat">
+          <DataField>PaymentDiscountFormat</DataField>
+        </Field>
+        <Field Name="PaymentMethodCode">
+          <DataField>PaymentMethodCode</DataField>
+        </Field>
+        <Field Name="PaymentServiceSetID">
+          <DataField>PaymentServiceSetID</DataField>
+        </Field>
+        <Field Name="PaymentTermsCode">
+          <DataField>PaymentTermsCode</DataField>
+        </Field>
+        <Field Name="PmtDiscountDate">
+          <DataField>PmtDiscountDate</DataField>
+        </Field>
+        <Field Name="PostingDate">
+          <DataField>PostingDate</DataField>
+        </Field>
+        <Field Name="PostingDescription">
+          <DataField>PostingDescription</DataField>
+        </Field>
+        <Field Name="PostingNo">
+          <DataField>PostingNo</DataField>
+        </Field>
+        <Field Name="PostingNoSeries">
+          <DataField>PostingNoSeries</DataField>
+        </Field>
+        <Field Name="PostingfromWhseRef">
+          <DataField>PostingfromWhseRef</DataField>
+        </Field>
+        <Field Name="Prepayment">
+          <DataField>Prepayment</DataField>
+        </Field>
+        <Field Name="PrepaymentFormat">
+          <DataField>PrepaymentFormat</DataField>
+        </Field>
+        <Field Name="PrepaymentDueDate">
+          <DataField>PrepaymentDueDate</DataField>
+        </Field>
+        <Field Name="PrepaymentNo">
+          <DataField>PrepaymentNo</DataField>
+        </Field>
+        <Field Name="PrepaymentNoSeries">
+          <DataField>PrepaymentNoSeries</DataField>
+        </Field>
+        <Field Name="PrepmtCrMemoNo">
+          <DataField>PrepmtCrMemoNo</DataField>
+        </Field>
+        <Field Name="PrepmtCrMemoNoSeries">
+          <DataField>PrepmtCrMemoNoSeries</DataField>
+        </Field>
+        <Field Name="PrepmtPaymentDiscount">
+          <DataField>PrepmtPaymentDiscount</DataField>
+        </Field>
+        <Field Name="PrepmtPaymentDiscountFormat">
+          <DataField>PrepmtPaymentDiscountFormat</DataField>
+        </Field>
+        <Field Name="PrepmtPaymentTermsCode">
+          <DataField>PrepmtPaymentTermsCode</DataField>
+        </Field>
+        <Field Name="PrepmtPmtDiscountDate">
+          <DataField>PrepmtPmtDiscountDate</DataField>
+        </Field>
+        <Field Name="PrepmtPostingDescription">
+          <DataField>PrepmtPostingDescription</DataField>
+        </Field>
+        <Field Name="PriceCalculationMethod">
+          <DataField>PriceCalculationMethod</DataField>
+        </Field>
+        <Field Name="PricesIncludingVAT">
+          <DataField>PricesIncludingVAT</DataField>
+        </Field>
+        <Field Name="PrintPostedDocuments">
+          <DataField>PrintPostedDocuments</DataField>
+        </Field>
+        <Field Name="PromisedDeliveryDate">
+          <DataField>PromisedDeliveryDate</DataField>
+        </Field>
+        <Field Name="QuoteAccepted">
+          <DataField>QuoteAccepted</DataField>
+        </Field>
+        <Field Name="QuoteAcceptedDate">
+          <DataField>QuoteAcceptedDate</DataField>
+        </Field>
+        <Field Name="QuoteNo">
+          <DataField>QuoteNo</DataField>
+        </Field>
+        <Field Name="QuoteSenttoCustomer">
+          <DataField>QuoteSenttoCustomer</DataField>
+        </Field>
+        <Field Name="QuoteValidUntilDate">
+          <DataField>QuoteValidUntilDate</DataField>
+        </Field>
+        <Field Name="RcvdfromCountRegionCode">
+          <DataField>RcvdfromCountRegionCode</DataField>
+        </Field>
+        <Field Name="ReasonCode">
+          <DataField>ReasonCode</DataField>
+        </Field>
+        <Field Name="RecalculateInvoiceDisc">
+          <DataField>RecalculateInvoiceDisc</DataField>
+        </Field>
+        <Field Name="Receive">
+          <DataField>Receive</DataField>
+        </Field>
+        <Field Name="RequestedDeliveryDate">
+          <DataField>RequestedDeliveryDate</DataField>
+        </Field>
+        <Field Name="Reserve">
+          <DataField>Reserve</DataField>
+        </Field>
+        <Field Name="ResponsibilityCenter">
+          <DataField>ResponsibilityCenter</DataField>
+        </Field>
+        <Field Name="ReturnReceiptNo">
+          <DataField>ReturnReceiptNo</DataField>
+        </Field>
+        <Field Name="ReturnReceiptNoSeries">
+          <DataField>ReturnReceiptNoSeries</DataField>
+        </Field>
+        <Field Name="SalespersonCode">
+          <DataField>SalespersonCode</DataField>
+        </Field>
+        <Field Name="SelltoAddress">
+          <DataField>SelltoAddress</DataField>
+        </Field>
+        <Field Name="SelltoAddress2">
+          <DataField>SelltoAddress2</DataField>
+        </Field>
+        <Field Name="SelltoCity">
+          <DataField>SelltoCity</DataField>
+        </Field>
+        <Field Name="SelltoContact">
+          <DataField>SelltoContact</DataField>
+        </Field>
+        <Field Name="SelltoContactNo">
+          <DataField>SelltoContactNo</DataField>
+        </Field>
+        <Field Name="SelltoCountryRegionCode">
+          <DataField>SelltoCountryRegionCode</DataField>
+        </Field>
+        <Field Name="SelltoCounty">
+          <DataField>SelltoCounty</DataField>
+        </Field>
+        <Field Name="SelltoCustomerName">
+          <DataField>SelltoCustomerName</DataField>
+        </Field>
+        <Field Name="SelltoCustomerName2">
+          <DataField>SelltoCustomerName2</DataField>
+        </Field>
+        <Field Name="SelltoCustomerNo">
+          <DataField>SelltoCustomerNo</DataField>
+        </Field>
+        <Field Name="SelltoCustomerTemplCode">
+          <DataField>SelltoCustomerTemplCode</DataField>
+        </Field>
+        <Field Name="SelltoEMail">
+          <DataField>SelltoEMail</DataField>
+        </Field>
+        <Field Name="SelltoICPartnerCode">
+          <DataField>SelltoICPartnerCode</DataField>
+        </Field>
+        <Field Name="SelltoPhoneNo">
+          <DataField>SelltoPhoneNo</DataField>
+        </Field>
+        <Field Name="SelltoPostCode">
+          <DataField>SelltoPostCode</DataField>
+        </Field>
+        <Field Name="SendICDocument">
+          <DataField>SendICDocument</DataField>
+        </Field>
+        <Field Name="SentasEmail">
+          <DataField>SentasEmail</DataField>
+        </Field>
+        <Field Name="Ship">
+          <DataField>Ship</DataField>
+        </Field>
+        <Field Name="ShiptoAddress">
+          <DataField>ShiptoAddress</DataField>
+        </Field>
+        <Field Name="ShiptoAddress2">
+          <DataField>ShiptoAddress2</DataField>
+        </Field>
+        <Field Name="ShiptoCity">
+          <DataField>ShiptoCity</DataField>
+        </Field>
+        <Field Name="ShiptoCode">
+          <DataField>ShiptoCode</DataField>
+        </Field>
+        <Field Name="ShiptoContact">
+          <DataField>ShiptoContact</DataField>
+        </Field>
+        <Field Name="ShiptoCountryRegionCode">
+          <DataField>ShiptoCountryRegionCode</DataField>
+        </Field>
+        <Field Name="ShiptoCounty">
+          <DataField>ShiptoCounty</DataField>
+        </Field>
+        <Field Name="ShiptoName">
+          <DataField>ShiptoName</DataField>
+        </Field>
+        <Field Name="ShiptoName2">
+          <DataField>ShiptoName2</DataField>
+        </Field>
+        <Field Name="ShiptoPostCode">
+          <DataField>ShiptoPostCode</DataField>
+        </Field>
+        <Field Name="ShipmentDate">
+          <DataField>ShipmentDate</DataField>
+        </Field>
+        <Field Name="ShipmentMethodCode">
+          <DataField>ShipmentMethodCode</DataField>
+        </Field>
+        <Field Name="Shipped">
+          <DataField>Shipped</DataField>
+        </Field>
+        <Field Name="ShippedNotInvoiced">
+          <DataField>ShippedNotInvoiced</DataField>
+        </Field>
+        <Field Name="ShippingAdvice">
+          <DataField>ShippingAdvice</DataField>
+        </Field>
+        <Field Name="ShippingAgentCode">
+          <DataField>ShippingAgentCode</DataField>
+        </Field>
+        <Field Name="ShippingAgentServiceCode">
+          <DataField>ShippingAgentServiceCode</DataField>
+        </Field>
+        <Field Name="ShippingNo">
+          <DataField>ShippingNo</DataField>
+        </Field>
+        <Field Name="ShippingNoSeries">
+          <DataField>ShippingNoSeries</DataField>
+        </Field>
+        <Field Name="ShippingTime">
+          <DataField>ShippingTime</DataField>
+        </Field>
+        <Field Name="ShortcutDimension1Code">
+          <DataField>ShortcutDimension1Code</DataField>
+        </Field>
+        <Field Name="ShortcutDimension2Code">
+          <DataField>ShortcutDimension2Code</DataField>
+        </Field>
+        <Field Name="Status">
+          <DataField>Status</DataField>
+        </Field>
+        <Field Name="SystemCreatedAt">
+          <DataField>SystemCreatedAt</DataField>
+        </Field>
+        <Field Name="SystemCreatedBy">
+          <DataField>SystemCreatedBy</DataField>
+        </Field>
+        <Field Name="SystemId">
+          <DataField>SystemId</DataField>
+        </Field>
+        <Field Name="SystemModifiedAt">
+          <DataField>SystemModifiedAt</DataField>
+        </Field>
+        <Field Name="SystemModifiedBy">
+          <DataField>SystemModifiedBy</DataField>
+        </Field>
+        <Field Name="TaxAreaCode">
+          <DataField>TaxAreaCode</DataField>
+        </Field>
+        <Field Name="TaxLiable">
+          <DataField>TaxLiable</DataField>
+        </Field>
+        <Field Name="TransactionSpecification">
+          <DataField>TransactionSpecification</DataField>
+        </Field>
+        <Field Name="TransactionType">
+          <DataField>TransactionType</DataField>
+        </Field>
+        <Field Name="TransportMethod">
+          <DataField>TransportMethod</DataField>
+        </Field>
+        <Field Name="VATBaseDiscount">
+          <DataField>VATBaseDiscount</DataField>
+        </Field>
+        <Field Name="VATBaseDiscountFormat">
+          <DataField>VATBaseDiscountFormat</DataField>
+        </Field>
+        <Field Name="VATBusPostingGroup">
+          <DataField>VATBusPostingGroup</DataField>
+        </Field>
+        <Field Name="VATCountryRegionCode">
+          <DataField>VATCountryRegionCode</DataField>
+        </Field>
+        <Field Name="VATRegistrationNo">
+          <DataField>VATRegistrationNo</DataField>
+        </Field>
+        <Field Name="VATReportingDate">
+          <DataField>VATReportingDate</DataField>
+        </Field>
+        <Field Name="WorkDescription">
+          <DataField>WorkDescription</DataField>
+        </Field>
+        <Field Name="YourReference">
+          <DataField>YourReference</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
